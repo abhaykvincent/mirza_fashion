@@ -1,4 +1,6 @@
+/* VARIABLES */
 
+//COLORS
 $dev-orange-color-1: #f0d4cd;
 $dev-orange-color-2: #F3724F;
 $dev-orange-color-3: #eca794;
@@ -10,6 +12,13 @@ $dev-orange-color-8: #813722;
 $dev-orange-color-9: #F3724F;
 $dev-orange-color-10:#220f0a ;
 
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* APP */
 .Mirza{
     display: grid;
     width: 100vw;
@@ -20,7 +29,7 @@ $dev-orange-color-10:#220f0a ;
         width: 100vw;
         height: 8px * 10;
 
-        background-color: white;
+        background-color: $dev-orange-color-1;
 
     }
     section{
@@ -56,6 +65,9 @@ $dev-orange-color-10:#220f0a ;
         }
     }
     footer{
+        width: 100vw;
+        height: 8px * 10;
 
+        background-color: $dev-orange-color-1;
     }
 }

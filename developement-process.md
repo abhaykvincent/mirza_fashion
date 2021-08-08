@@ -14,6 +14,9 @@ Web Design - Work Flow
 
     2. NodeSASS
         * `npm install node-sass`
+    
+    3. SCSS RESET
+        * RESET scss manualy
 
 2. ## Developement ##
 
