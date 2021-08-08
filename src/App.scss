@@ -25,20 +25,20 @@ $dev-orange-color-10:#220f0a ;
 
     text-align: center;
 
-    header{
-        width: 100vw;
-        height: 8px * 10;
-
-        background-color: $dev-orange-color-1;
-
-    }
     section{
         &.hero{
-
+            display:  grid;
+            grid-template-columns: 1fr 1fr;
             width: 100vw;
             height: 8px * 100;
     
             background-color: $dev-orange-color-4;
+            .left{
+                padding: 8px * 4;
+            }
+            .right{
+                padding: 8px * 4;
+            }
         }
         &.feature-images{
             width: 100vw;
@@ -110,4 +110,8 @@ $dev-orange-color-10:#220f0a ;
 
         background-color: $dev-orange-color-10;
     }
+}
+
+.border{
+    border:1px dashed rgb(44, 44, 44)
 }

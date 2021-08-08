@@ -7,7 +7,12 @@ function App() {
   return (
     <div className="Mirza">
       <Header/>
-      <section className="hero">hero</section>
+
+      <section className="hero">
+        <div className="left border">Left</div>
+        <div className="right border">Right</div>
+      </section>
+
       <section className="feature-images">feature-images</section>
       <section className="fashion-meets-design-i">ashion-meets-design-i</section>
       <section className="fashion">ashion</section>
