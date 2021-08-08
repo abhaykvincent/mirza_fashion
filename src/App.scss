@@ -39,12 +39,15 @@ $dev-orange-color-10:#220f0a ;
 
                 width: 100vw;
                 height: 8px * 100;
-                padding: 8px * 4;
+                padding: 8px * 10;
                 z-index: 89;
                 .left{
                     padding: 8px * 4;
                 }
                 .right{
+                    display: grid;
+                    justify-self: end;
+                    width: 75%;
                     padding: 8px * 4;
                     .hero-image{
                         height: 8px*50;
@@ -66,7 +69,16 @@ $dev-orange-color-10:#220f0a ;
             height: 8px * 50;
     
             background-color: $dev-orange-color-3;
+            .image-strip{
+                display: grid;
+                height: 100%;
+                grid-template-columns: 4fr 3fr 4fr;
+                grid-gap: 8px;
+                .image{
 
+                }
+
+            }
         }
         &.fashion-meets-design-i{
 
