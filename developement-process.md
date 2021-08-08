@@ -17,12 +17,15 @@ Web Design - Work Flow
 
 2. ## Developement ##
 
-    1. BASIC MARKUP
+    1. BASIC STRUCTURE
         * BUILD - HTML Structure
+        * BUILD - SCSS structure
 
     2. PRODUCTION STYLING
-        * Make box-site
-        * WRITE - SCSS structure
+        * CONSTRUCT box-site
+        i. declare basic variables
+            a. colors
+            b. px sizes
 
 # HTML Structure #
 
