@@ -3,7 +3,13 @@ import './Header.scss'
 
 function Header() {
     return (
-        <header>Header</header>
+        <header>
+            <div className="menu">
+                <div className="hamburger">
+                    <div className="icon">=</div>
+                </div>
+            </div>
+        </header>
     )
 }
 
