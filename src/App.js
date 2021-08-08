@@ -1,8 +1,12 @@
 import './App.scss'
+
+// IMPORT Components
+import Header from './components/Header/Header'
+
 function App() {
   return (
     <div className="Mirza">
-      <header className="header">Header</header>
+      <Header/>
       <section className="hero">hero</section>
       <section className="feature-images">feature-images</section>
       <section className="fashion-meets-design-i">ashion-meets-design-i</section>
