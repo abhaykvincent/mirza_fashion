@@ -3,9 +3,7 @@ import './Header.scss'
 
 function Header() {
     return (
-        <Header>
-            Header
-        </Header>
+        <header>Header</header>
     )
 }
 
