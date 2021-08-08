@@ -9,13 +9,23 @@ function App() {
       <Header/>
 
       <section className="hero">
-        <div className="left border">Left</div>
-        <div className="right border">Right</div>
+        <div className="foreground">
+          <div className="left  border">
+            <div className="border hi">Hi</div>
+            <div className="border intro">Intro</div>
+            <div className="border social">Social</div>
+            <div className="border cta">CTA</div>
+          </div>
+          <div className="right border">
+            <div className="border hero-image">Hero Image</div>
+          </div>
+        </div>
+        <div className="background"></div>
       </section>
 
       <section className="feature-images">feature-images</section>
       <section className="fashion-meets-design-i">ashion-meets-design-i</section>
-      <section className="fashion">ashion</section>
+      <section className="fashion">fashion</section>
       <section className="design">design</section>
       <section className="fashion-meets-design-ii">fashion-meets-design-ii</section>
       <section className="bio-brief">bio-brief</section>
