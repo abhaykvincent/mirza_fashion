@@ -8,7 +8,7 @@ function App() {
     <div className="Mirza">
       <Header/>
 
-      // Hero Section
+      {/* Hero Section */}
       <section className="hero">
         <div className="foreground">
           <div className="left  border">
