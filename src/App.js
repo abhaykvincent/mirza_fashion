@@ -13,7 +13,7 @@ function App() {
       <section className="mirza-gallery">mirza-gallery</section>
       <section className="clients">clients</section>
       <section className="cta">cta</section>
-      <div className="footer">Footer</div>
+      <footer className="footer">Footer</footer>
     </div>
   );
 }
