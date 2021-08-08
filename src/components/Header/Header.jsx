@@ -6,7 +6,8 @@ function Header() {
         <header>
             <div className="menu">
                 <div className="hamburger">
-                    <div className="icon">=</div>
+                    <div className="icon"></div>
+                    <div className="hamburger-menu"></div>
                 </div>
             </div>
         </header>
