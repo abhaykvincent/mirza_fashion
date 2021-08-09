@@ -96,14 +96,14 @@ $dev-orange-color-10:#220f0a ;
         }
         &.fashion-meets-design-i{
             width: 100vw;
-    
-            background-color: $dev-orange-color-2;
+            background-color: rgba(128, 128, 128, 0.226);
+            padding: 8px * 10;
             .text-content{
                 display: block;
                 float: right;
                 width: 40%;
-                padding: 8px * 10;
-                font-size: 5rem;
+                font-size: 4rem;
+                font-weight: bold;
                 text-align: left;
             }
         }
