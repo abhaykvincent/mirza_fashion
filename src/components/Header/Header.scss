@@ -4,11 +4,10 @@ header{
     .menu{
         .hamburger{
             .icon{
-                display: inline-block;
                 float: right;
                 width: 8px * 5;
                 height: 8px * 5;
-                margin: 8px  * 2.5;
+                margin:   8px*2.5 8px*10;
 
                 background-color: grey;
             }

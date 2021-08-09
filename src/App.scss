@@ -108,11 +108,14 @@ $dev-orange-color-10:#220f0a ;
             }
         }
         &.fashion{
-
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 8px*4;
             width: 100vw;
             height: 8px * 50;
-    
-            background-color: $dev-orange-color-1;
+            padding: 8px 8px * 10;
+
+            background-color: rgba(128, 128, 128, 0.226);
         }
         &.design{
 

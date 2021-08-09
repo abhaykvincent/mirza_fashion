@@ -42,7 +42,10 @@ function App() {
       <section className="fashion-meets-design-i">
         <div className="text-content border">Lorem ipsum dolor sit.</div>
       </section>
-      <section className="fashion">fashion</section>
+      <section className="fashion">
+        <div className="border left">Left</div>
+        <div className="border right">Left</div>
+      </section>
       <section className="design">design</section>
       <section className="fashion-meets-design-ii">fashion-meets-design-ii</section>
       <section className="bio-brief">bio-brief</section>
