@@ -113,23 +113,34 @@ $dev-orange-color-10:#220f0a ;
             grid-gap: 8px*4;
             width: 100vw;
             height: 8px * 50;
-            padding: 8px 8px * 10;
+            padding: 8px*2 8px * 10;
 
             background-color: rgba(128, 128, 128, 0.226);
         }
         &.design{
 
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 8px*4;
             width: 100vw;
             height: 8px * 50;
-    
-            background-color: $dev-orange-color-3;
+            padding: 8px*2 8px * 10;
+
+            background-color: rgba(128, 128, 128, 0.226);
         }
         &.fashion-meets-design-ii{
 
             width: 100vw;
-            height: 8px * 50;
-    
-            background-color: $dev-orange-color-2;
+            background-color: rgba(128, 128, 128, 0.226);
+            padding: 8px * 10;
+            .text-content{
+                display: block;
+                float: left;
+                width: 40%;
+                font-size: 4rem;
+                font-weight: bold;
+                text-align: left;
+            }
         }
         &.bio-brief{
 

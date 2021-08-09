@@ -46,8 +46,14 @@ function App() {
         <div className="border left">Left</div>
         <div className="border right">Left</div>
       </section>
-      <section className="design">design</section>
-      <section className="fashion-meets-design-ii">fashion-meets-design-ii</section>
+      <section className="design">
+
+      <div className="border left">Left</div>
+        <div className="border right">Left</div>
+      </section>
+      <section className="fashion-meets-design-ii">
+        <div className="text-content border">Lorem ipsum dolor sit.</div>
+      </section>
       <section className="bio-brief">bio-brief</section>
       <section className="mirza-gallery">mirza-gallery</section>
       <section className="clients">clients</section>
