@@ -96,37 +96,51 @@ $dev-orange-color-10:#220f0a ;
         }
         &.fashion-meets-design-i{
             width: 100vw;
-    
-            background-color: $dev-orange-color-2;
+            background-color: rgba(128, 128, 128, 0.226);
+            padding: 8px * 10;
             .text-content{
                 display: block;
                 float: right;
                 width: 40%;
-                padding: 8px * 10;
-                font-size: 5rem;
+                font-size: 4rem;
+                font-weight: bold;
                 text-align: left;
             }
         }
         &.fashion{
-
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 8px*4;
             width: 100vw;
             height: 8px * 50;
-    
-            background-color: $dev-orange-color-1;
+            padding: 8px*2 8px * 10;
+
+            background-color: rgba(128, 128, 128, 0.226);
         }
         &.design{
 
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 8px*4;
             width: 100vw;
             height: 8px * 50;
-    
-            background-color: $dev-orange-color-3;
+            padding: 8px*2 8px * 10;
+
+            background-color: rgba(128, 128, 128, 0.226);
         }
         &.fashion-meets-design-ii{
 
             width: 100vw;
-            height: 8px * 50;
-    
-            background-color: $dev-orange-color-2;
+            background-color: rgba(128, 128, 128, 0.226);
+            padding: 8px * 10;
+            .text-content{
+                display: block;
+                float: left;
+                width: 40%;
+                font-size: 4rem;
+                font-weight: bold;
+                text-align: left;
+            }
         }
         &.bio-brief{
 
