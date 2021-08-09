@@ -39,7 +39,9 @@ function App() {
           <div className="border image"></div>
         </div>
       </section>
-      <section className="fashion-meets-design-i">ashion-meets-design-i</section>
+      <section className="fashion-meets-design-i">
+        <div className="text-content border">Lorem ipsum dolor sit.</div>
+      </section>
       <section className="fashion">fashion</section>
       <section className="design">design</section>
       <section className="fashion-meets-design-ii">fashion-meets-design-ii</section>

@@ -42,7 +42,10 @@ $dev-orange-color-10:#220f0a ;
                 padding: 8px * 10;
                 z-index: 89;
                 .left{
+                    display: grid;
+                    grid-row-gap: 8px*2;
                     padding: 8px * 4;
+                    grid-column-gap: 8px*4;
                 }
                 .right{
                     display: grid;
@@ -66,26 +69,43 @@ $dev-orange-color-10:#220f0a ;
         }
         &.feature-images{
             width: 100vw;
-            height: 8px * 50;
+            height: 8px * 60;
     
-            background-color: $dev-orange-color-3;
+            background-color: rgba(128, 128, 128, 0.226);
             .image-strip{
                 display: grid;
                 height: 100%;
-                grid-template-columns: 4fr 3fr 4fr;
+                padding: 0px  8px*10;
+                grid-template-columns: 7fr 6fr 8fr;
                 grid-gap: 8px;
                 .image{
-
+                    &:nth-child(1){
+                        height:  75%;
+                        align-self: end;
+                    }
+                    &:nth-child(2){
+                        height:  50%;
+                        align-self: center;
+                    }
+                    &:nth-child(3){
+                        height:  75%;
+                    }
                 }
 
             }
         }
         &.fashion-meets-design-i{
-
             width: 100vw;
-            height: 8px * 50;
     
             background-color: $dev-orange-color-2;
+            .text-content{
+                display: block;
+                float: right;
+                width: 40%;
+                padding: 8px * 10;
+                font-size: 5rem;
+                text-align: left;
+            }
         }
         &.fashion{
 
