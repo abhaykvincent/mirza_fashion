@@ -60,7 +60,29 @@ function App() {
       </section>
       <section className="mirza-gallery">
         <div className="gallery">
-          
+          <div className="image-strip">
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+          </div>
+          <div className="image-strip">
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+          </div>
+          <div className="image-strip">
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+          </div>
         </div>
       </section>
       <section className="clients border">
