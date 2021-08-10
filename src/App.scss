@@ -20,7 +20,19 @@ $dev-orange-color-10:#220f0a ;
 }
 
 /* APP */
+.Mirza{
+    display: grid;
+    width: 100vw;
 
+    text-align: center;
+
+    footer{
+        width: 100vw;
+        height: 8px * 10;
+
+        background-color: $dev-orange-color-10;
+    }
+}
 
 .border{
     border:1px dashed rgb(44, 44, 44);
