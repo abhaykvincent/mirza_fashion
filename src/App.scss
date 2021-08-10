@@ -156,9 +156,20 @@ $dev-orange-color-10:#220f0a ;
         &.mirza-gallery{
 
             width: 100vw;
-            height: 8px * 50;
-
+            padding: 8px*10 0px;
             background-color: rgba(128, 128, 128, 0.226);
+            .gallery{
+                .image-strip{
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                    grid-gap: 8px;
+                    width: 100%;
+                    height: 8px*20;
+                    margin-bottom: 8px;
+                    .image{
+                    }
+                }
+            }
         }
         &.clients{
 

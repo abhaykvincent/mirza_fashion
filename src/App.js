@@ -58,12 +58,44 @@ function App() {
         <div className="border left">Left</div>
         <div className="border right">Left</div>
       </section>
-      <section className="mirza-gallery border">mirza-gallery</section>
+      <section className="mirza-gallery">
+        <div className="gallery">
+          <div className="image-strip">
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+          </div>
+          <div className="image-strip">
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+          </div>
+          <div className="image-strip">
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+          </div>
+        </div>
+      </section>
       <section className="clients border">
         <div className="border left">Left</div>
         <div className="border right">Left</div>
       </section>
-      <section className="cta">cta</section>
+      <section className="cta">
+        <div className="cta-content">
+          <div className="cta-title"></div>
+          <div className="cta-Body"></div>
+          <div className="cta-title"></div>
+        </div>
+      </section>
       <footer className="footer">Footer</footer>
     </div>
   );
