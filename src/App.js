@@ -85,7 +85,10 @@ function App() {
           </div>
         </div>
       </section>
-      
+      <section className="clients border">
+        <div className="border left">Left</div>
+        <div className="border right">Left</div>
+      </section>
       <section className="cta">
         <div className="cta-content">
           <div className="cta-title"></div>
