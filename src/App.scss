@@ -39,12 +39,18 @@ $dev-orange-color-10:#220f0a ;
 
                 width: 100vw;
                 height: 8px * 100;
-                padding: 8px * 4;
+                padding: 8px * 10;
                 z-index: 89;
                 .left{
+                    display: grid;
+                    grid-row-gap: 8px*2;
                     padding: 8px * 4;
+                    grid-column-gap: 8px*4;
                 }
                 .right{
+                    display: grid;
+                    justify-self: end;
+                    width: 75%;
                     padding: 8px * 4;
                     .hero-image{
                         height: 8px*50;
@@ -63,59 +69,118 @@ $dev-orange-color-10:#220f0a ;
         }
         &.feature-images{
             width: 100vw;
-            height: 8px * 50;
+            height: 8px * 60;
     
-            background-color: $dev-orange-color-3;
+            background-color: rgba(128, 128, 128, 0.226);
+            .image-strip{
+                display: grid;
+                height: 100%;
+                padding: 0px  8px*10;
+                grid-template-columns: 7fr 6fr 8fr;
+                grid-gap: 8px;
+                .image{
+                    &:nth-child(1){
+                        height:  75%;
+                        align-self: end;
+                    }
+                    &:nth-child(2){
+                        height:  50%;
+                        align-self: center;
+                    }
+                    &:nth-child(3){
+                        height:  75%;
+                    }
+                }
 
+            }
         }
         &.fashion-meets-design-i{
-
             width: 100vw;
-            height: 8px * 50;
-    
-            background-color: $dev-orange-color-2;
+            background-color: rgba(128, 128, 128, 0.226);
+            padding: 8px * 10;
+            .text-content{
+                display: block;
+                float: right;
+                width: 40%;
+                font-size: 4rem;
+                font-weight: bold;
+                text-align: left;
+            }
         }
         &.fashion{
-
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 8px*4;
             width: 100vw;
             height: 8px * 50;
-    
-            background-color: $dev-orange-color-1;
+            padding: 8px*2 8px * 10;
+
+            background-color: rgba(128, 128, 128, 0.226);
         }
         &.design{
 
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 8px*4;
             width: 100vw;
             height: 8px * 50;
-    
-            background-color: $dev-orange-color-3;
+            padding: 8px*2 8px * 10;
+
+            background-color: rgba(128, 128, 128, 0.226);
         }
         &.fashion-meets-design-ii{
 
             width: 100vw;
-            height: 8px * 50;
-    
-            background-color: $dev-orange-color-2;
+            background-color: rgba(128, 128, 128, 0.226);
+            padding: 8px * 10;
+            .text-content{
+                display: block;
+                float: left;
+                width: 40%;
+                font-size: 4rem;
+                font-weight: bold;
+                text-align: left;
+            }
         }
         &.bio-brief{
 
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 8px*4;
             width: 100vw;
             height: 8px * 50;
-    
-            background-color: $dev-orange-color-2;
+            padding: 8px*2 8px * 10;
+
+            background-color: rgba(128, 128, 128, 0.226);
         }
         &.mirza-gallery{
 
             width: 100vw;
-            height: 8px * 50;
-    
-            background-color: $dev-orange-color-3;
+            padding: 8px*10 0px;
+            background-color: rgba(128, 128, 128, 0.226);
+            .gallery{
+                .image-strip{
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                    grid-gap: 8px;
+                    width: 100%;
+                    height: 8px*20;
+                    margin-bottom: 8px;
+                    .image{
+                    }
+                }
+            }
         }
         &.clients{
 
+            display:grid;
+            grid-template-columns: 1fr 3fr;
+            grid-gap: 8px*4;
             width: 100vw;
             height: 8px * 50;
-    
-            background-color: $dev-orange-color-3;
+            padding: 8px*2 8px * 10;
+
+            background-color: rgba(128, 128, 128, 0.226);
         }
         &.cta{
 

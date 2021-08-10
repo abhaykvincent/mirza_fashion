@@ -27,20 +27,75 @@ function App() {
               <div className="border hero-image">Hero Image</div>
             </div>
           </div>
-          
+
         {/* Foreground */}
         <div className="background"></div>
       </section>
 
-      <section className="feature-images">feature-images</section>
-      <section className="fashion-meets-design-i">ashion-meets-design-i</section>
-      <section className="fashion">fashion</section>
-      <section className="design">design</section>
-      <section className="fashion-meets-design-ii">fashion-meets-design-ii</section>
-      <section className="bio-brief">bio-brief</section>
-      <section className="mirza-gallery">mirza-gallery</section>
-      <section className="clients">clients</section>
-      <section className="cta">cta</section>
+      <section className="feature-images">
+        <div className="image-strip">
+          <div className="border image"></div>
+          <div className="border image"></div>
+          <div className="border image"></div>
+        </div>
+      </section>
+      <section className="fashion-meets-design-i">
+        <div className="text-content border">Lorem ipsum dolor sit.</div>
+      </section>
+      <section className="fashion">
+        <div className="border left">Left</div>
+        <div className="border right">Left</div>
+      </section>
+      <section className="design">
+
+      <div className="border left">Left</div>
+        <div className="border right">Left</div>
+      </section>
+      <section className="fashion-meets-design-ii">
+        <div className="text-content border">Lorem ipsum dolor sit.</div>
+      </section>
+      <section className="bio-brief">
+        <div className="border left">LEFT</div>
+        <div className="border right">RIGHT</div>
+      </section>
+      <section className="mirza-gallery">
+        <div className="gallery">
+          <div className="image-strip">
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+          </div>
+          <div className="image-strip">
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+          </div>
+          <div className="image-strip">
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+            <div className="image  border">Image</div>
+          </div>
+        </div>
+      </section>
+      <section className="clients border">
+        <div className="border left">Left</div>
+        <div className="border right">Left</div>
+      </section>
+      <section className="cta">
+        <div className="cta-content">
+          <div className="cta-title"></div>
+          <div className="cta-Body"></div>
+          <div className="cta-title"></div>
+        </div>
+      </section>
       <footer className="footer">Footer</footer>
     </div>
   );
