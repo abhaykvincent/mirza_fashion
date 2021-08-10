@@ -55,8 +55,8 @@ function App() {
         <div className="text-content border">Lorem ipsum dolor sit.</div>
       </section>
       <section className="bio-brief">
-        <div className="border left">Left</div>
-        <div className="border right">Left</div>
+        <div className="border left">LEFT</div>
+        <div className="border right">RIGHT</div>
       </section>
       <section className="mirza-gallery">
         <div className="gallery">
