@@ -1,10 +1,10 @@
 /* VARIABLES */
 
 //COLORS
-$dev-orange-color-1: #f0d4cd;
-$dev-orange-color-2: #F3724F;
-$dev-orange-color-3: #eca794;
-$dev-orange-color-4: #F3724F;
+$dev-orange-color-1: #e9c4bb;
+$dev-orange-color-2: #eba996;
+$dev-orange-color-3: #f1957b;
+$dev-orange-color-4: #f07d5e;
 $dev-orange-color-5: #F3724F;
 $dev-orange-color-6: #F3724F;
 $dev-orange-color-7: #F3724F;
@@ -16,6 +16,7 @@ $dev-orange-color-10:#220f0a ;
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* APP */
@@ -25,49 +26,114 @@ $dev-orange-color-10:#220f0a ;
 
     text-align: center;
 
-    header{
-        width: 100vw;
-        height: 8px * 10;
-
-        background-color: $dev-orange-color-1;
-
-    }
     section{
         &.hero{
+            position: relative;
+            height: 8px * 100;
+            .foreground{
+                position:absolute;
+                display:  grid;
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 8px*4;
+                align-items: center;
 
+                width: 100vw;
+                height: 8px * 100;
+                padding: 8px * 4;
+                z-index: 89;
+                .left{
+                    padding: 8px * 4;
+                }
+                .right{
+                    padding: 8px * 4;
+                    .hero-image{
+                        height: 8px*50;
+                    }
+                }
+            }
+            .background{
+                position:absolute;
+                top:0px;
+                
+                width:100%;
+                height:8px*100;
+                background-color: rgba(128, 128, 128, 0.226);
+                z-index: 88;
+            }
         }
         &.feature-images{
+            width: 100vw;
+            height: 8px * 50;
+    
+            background-color: $dev-orange-color-3;
 
         }
         &.fashion-meets-design-i{
 
+            width: 100vw;
+            height: 8px * 50;
+    
+            background-color: $dev-orange-color-2;
         }
         &.fashion{
 
+            width: 100vw;
+            height: 8px * 50;
+    
+            background-color: $dev-orange-color-1;
         }
         &.design{
 
+            width: 100vw;
+            height: 8px * 50;
+    
+            background-color: $dev-orange-color-3;
         }
         &.fashion-meets-design-ii{
 
+            width: 100vw;
+            height: 8px * 50;
+    
+            background-color: $dev-orange-color-2;
         }
         &.bio-brief{
 
+            width: 100vw;
+            height: 8px * 50;
+    
+            background-color: $dev-orange-color-2;
         }
         &.mirza-gallery{
 
+            width: 100vw;
+            height: 8px * 50;
+    
+            background-color: $dev-orange-color-3;
         }
         &.clients{
 
+            width: 100vw;
+            height: 8px * 50;
+    
+            background-color: $dev-orange-color-3;
         }
         &.cta{
 
+            width: 100vw;
+            height: 8px * 50;
+    
+            background-color: $dev-orange-color-1;
         }
     }
     footer{
         width: 100vw;
         height: 8px * 10;
 
-        background-color: $dev-orange-color-1;
+        background-color: $dev-orange-color-10;
     }
+}
+
+.border{
+    border:1px dashed rgb(44, 44, 44);
+    padding: 8px * 2;
 }
