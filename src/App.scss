@@ -26,6 +26,48 @@ $dev-orange-color-10:#220f0a ;
 
     text-align: center;
 
+    section{
+        &.hero{
+            position: relative;
+            height: 8px * 100;
+            .foreground{
+                position:absolute;
+                display:  grid;
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 8px*4;
+                align-items: center;
+
+                width: 100vw;
+                height: 8px * 100;
+                padding: 8px * 10;
+                z-index: 89;
+                .left{
+                    display: grid;
+                    grid-row-gap: 8px*2;
+                    padding: 8px * 4;
+                    grid-column-gap: 8px*4;
+                }
+                .right{
+                    display: grid;
+                    justify-self: end;
+                    width: 75%;
+                    padding: 8px * 4;
+                    .hero-image{
+                        height: 8px*50;
+                    }
+                }
+            }
+            .background{
+                position:absolute;
+                top:0px;
+                
+                width:100%;
+                height:8px*100;
+                background-color: rgba(128, 128, 128, 0.226);
+                z-index: 88;
+            }
+        }
+    }
     footer{
         width: 100vw;
         height: 8px * 10;
