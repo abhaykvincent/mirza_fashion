@@ -16,7 +16,7 @@ Web Design - Work Flow
         * `npm install node-sass`
     
     3. SCSS RESET
-        * RESET scss manualy
+        * RESET scss manualy 
 
 2. ## Developement ##
 
@@ -46,3 +46,12 @@ Web Design - Work Flow
         .clients
         .cta
         footer
+
+
+
+
+## z-index ##
+
+>90 Header
+>80 mains    
+>50 helpers   
